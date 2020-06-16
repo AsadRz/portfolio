@@ -1,0 +1,44 @@
+.logo {
+  font-size: 36px;
+  font-weight: 800;
+  color: #100f3a;
+  margin-right: 48px;
+  margin-top: -5px;
+
+  /* transition: all 200ms ease; */
+}
+.logo span {
+  color: #8583e1;
+}
+@media only screen and (min-width: 426px) and (max-width: 1440px) {
+  .nav-link {
+    display: block;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    border-right: 1px solid #9f9fb0;
+    width: 132px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .navbar-toggler {
+    margin-left: -46px;
+  }
+  .nav-link {
+    display: block;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 1px solid #9f9fb0;
+    text-align: center;
+  }
+}
+.nav-item:hover .nav-link:hover {
+  background-color: #8583e1;
+  color: white;
+}
+.nav-link:hover {
+  color: white;
+  background-color: #8583e1;
+}
